@@ -5,6 +5,7 @@ Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardant
 
 ## (table) car_used:
 
+- id                        INDEX INT   NOT NULL        
 - casa produttrice          VARCHAR(30) NOT NULL
 - modello                   VARCHAR(50) NOT NULL    
 - numero porte              TINYINT     NOT NULL    
